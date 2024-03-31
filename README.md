@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# my clipbit package
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Build Status: Ready to Integrate
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+my clipbit package is designed to provide effortless clipboard integration for React applications. It's lightweight, with no dependencies, making it an ideal choice for developers looking to add clipboard functionality to their projects without the overhead of additional libraries.
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Why
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In today's web development landscape, copying text to the clipboard should be straightforward and efficient. It shouldn't require complex setups or heavy dependencies. That's exactly what my clipbit package offers.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To integrate my clipbit package into your project, simply use npm: npm install @clipbit --save
 
-### `npm run build`
+Alternatively, if you prefer not to use package managers, you can download the package directly.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To begin using my clipbit package, import it into your React component: import Clipbit from "@clipbit";
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Then, wrap the text you wish to copy with the Clipbit component, for example: <Clipbit>npm i @heroicons/react</Clipbit>
 
-### `npm run eject`
+This setup is all you need to enable clipboard functionality for your text.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+my clipbit package is designed with simplicity and flexibility in mind. You can easily integrate it into your React applications without altering your existing codebase.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Copy Text from Children
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The most straightforward use case is copying text directly from the children of the Clipbit component. This is achieved by simply passing the text you wish to copy as children to the Clipbit component.
 
-## Learn More
+### Feedback and Events
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To enhance user experience, my clipbit package provides feedback on successful copy operations. You can listen to the 'success' event to implement custom logic, such as displaying a confirmation message.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Customization and Advanced Options
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+While my clipbit package is designed to be straightforward, it also offers advanced options for customization. You can dynamically set targets or customize the appearance of the clipboard button.
